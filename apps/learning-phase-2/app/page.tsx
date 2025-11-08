@@ -1,13 +1,85 @@
 'use client';
+import PetAgeChart from './components/PetAgeChart'
+import PetSpeciesChart from './components/PetSpeciesChart'
+import PetCard from './components/PetCard'
+
+type Pet = {
+  id: number
+  name: string
+  species: string
+  age: number
+  color: string
+  breed: string
+}
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-b from-blue-50 to-white">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold text-gray-900 mb-4">
-          🐾 Hello Pet Management App! 🐾
-        </h1>
+  const pets: Pet[] = [
+    {
+      id: 1,
+      name: "Pochi",
+      species: "Dog",
+      age: 9,
+      color: "Brown",
+      breed: "Golden Retriever",
+    },
+    {
+      id: 2,
+      name: "Tama",
+      species: "Cat",
+      age: 5,
+      color: "Orange",
+      breed: "Persian",
+    },
+    {
+      id: 3,
+      name: "Piyo",
+      species: "Bird",
+      age: 2,
+      color: "Yellow",
+      breed: "Canary",
+    },
+    {
+      id: 4,
+      name: "Masuo",
+      species: "Fish",
+      age: 1,
+      color: "Blue",
+      breed: "Betta",
+    },
+    {
+    id: 5,
+    name: "Koro",
+    species: "Dog",
+    age: 7,
+    color: "Black",
+    breed: "Labrador",
+  }
+  ]
+
+return (
+  <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white p-8">
+    <div className="max-w-6xl mx-auto">
+      <h1 className="text-5xl font-bold text-center mb-8 text-gray-900">
+        🐾 Pet Management Dashboard - linukawa 🐾
+      </h1>
+
+      {/* Add the chart here */}
+      <div className="mb-8 flex justify-center">
+        <PetSpeciesChart pets={pets} />
       </div>
-    </main>
-  )
+
+      {/* Add age chart */}
+      <div className="mb-8 flex justify-center">
+      <PetAgeChart pets={pets} />
+      </div>
+
+      {/* Pet cards grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {pets.map((pet) => (
+          <PetCard key={pet.id} {...pet} />
+        ))}
+      </div>
+    </div>
+  </main>
+)
 }
