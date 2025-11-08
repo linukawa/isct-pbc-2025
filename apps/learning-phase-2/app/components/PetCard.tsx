@@ -19,7 +19,7 @@ export default function PetCard({ id, name, species, age, color, breed }: PetCar
           
     <div className="flex items-center justify-between mb-4">
       <div className="flex items-center">
-        <h2 className="text-3xl font-bold text-gray-800">
+        <h2 className="text-2xl font-bold text-gray-800">
           {emoji} #{id} {name}
           </h2>
       </div>
