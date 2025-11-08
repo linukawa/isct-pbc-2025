@@ -1,6 +1,40 @@
+![](images/2025-11-08-09-17-55.png)
+
 # Section 0: Opening
 
-## 0.1 Instructor Team
+## 0.1 Today's Goals
+
+Bubble is a no-code tool that allows you to build applications through intuitive visual operations. It’s a powerful tool for developing prototype or relatively simple applications quickly and cost-effectively.
+
+However, when it comes to meeting more complex requirements, the functions provided by Bubble alone become insufficient. In such cases, by writing code yourself and developing through programming languages, you can implement more advanced and detailed features.
+
+In this and the following two sessions, we will learn how to develop applications by writing programming code. In this first session, we’ll cover the fundamental concepts, tools, and basic syntax needed for web application development. In the upcoming sessions, we’ll move on to more advanced development topics.
+
+By the end of this workshop, you will:
+
+1. **Understand web applications** - Learn how websites and web apps work behind the scenes
+2. **Set up your development environment** - Install and configure all the tools professional developers use
+3. **Write your first code** - Create a functional Pet Management application
+4. **Learn programming fundamentals** - Variables, functions, conditionals, loops, and more
+5. **Experience team development** - Use Git and GitHub like professional developers do
+
+## 0.2 Today's Schedule
+
+| Time | Activity | What You'll Do |
+|------|----------|----------------|
+| 10:00-10:15 | Opening | You are here! |
+| 10:15-10:45 | Web Application Basics | Learn how web apps work |
+| 10:45-11:15 | AI Agent Demo | See AI build an app in seconds |
+| 11:15-12:00 | Setup Part 1 | Install tools and create accounts |
+| 12:00-13:00 | Lunch Break | Recharge! |
+| 13:00-14:00 | Setup Part 2 | Install remaining tools and create accounts |
+| 14:00-17:00 | Programming Basics | Learn and practice programming basics |
+| 17:00-18:30 | Team Development | Learn Git and collaboration |
+| 18:30-19:00 | Summary & Q&A | Review and next steps |
+
+**Don't hesitate to ask for help!** That's what we're here for.
+
+## 0.2 Instructor Team
 
 ### Main Instructor
 Sanhe Kim
@@ -18,38 +52,6 @@ Junichiro Ueno
 - Help with individual problems
 - Provide one-on-one guidance
 - Ensure everyone can keep up
-
-## 0.2 Today's Goals
-
-Bubble is a no-code tool that allows you to build applications through intuitive visual operations. It’s a powerful tool for developing prototype or relatively simple applications quickly and cost-effectively.
-
-However, when it comes to meeting more complex requirements, the functions provided by Bubble alone become insufficient. In such cases, by writing code yourself and developing through programming languages, you can implement more advanced and detailed features.
-
-In this and the following two sessions, we will learn how to develop applications by writing programming code. In this first session, we’ll cover the fundamental concepts, tools, and basic syntax needed for web application development. In the upcoming sessions, we’ll move on to more advanced development topics.
-
-By the end of this workshop, you will:
-
-1. **Understand web applications** - Learn how websites and web apps work behind the scenes
-2. **Set up your development environment** - Install and configure all the tools professional developers use
-3. **Write your first code** - Create a functional Pet Management application
-4. **Learn programming fundamentals** - Variables, functions, conditionals, loops, and more
-5. **Experience team development** - Use Git and GitHub like professional developers do
-
-## 0.3 Today's Schedule
-
-| Time | Activity | What You'll Do |
-|------|----------|----------------|
-| 10:00-10:15 | Opening | You are here! |
-| 10:15-10:45 | Web Application Basics | Learn how web apps work |
-| 10:45-11:15 | AI Agent Demo | See AI build an app in seconds |
-| 11:15-12:00 | Setup Part 1 | Install tools and create accounts |
-| 12:00-13:00 | Lunch Break | Recharge! |
-| 13:00-14:00 | Setup Part 2 | Install remaining tools and create accounts |
-| 14:00-17:00 | Programming Basics | Learn and practice programming basics |
-| 17:00-18:30 | Team Development | Learn Git and collaboration |
-| 18:30-19:00 | Summary & Q&A | Review and next steps |
-
-**Don't hesitate to ask for help!** That's what we're here for.
 
 ## 0.4 Learning Approach
 
