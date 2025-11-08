@@ -1,5 +1,5 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
-import { getAgeCategory } from '/Users/linuxfarungsang/isct-pbc-2025/apps/learning-phase-2/lib/petUtils'
+import { getAgeCategory } from '../../lib/petUtils'
 
 type Pet = {
   id: number

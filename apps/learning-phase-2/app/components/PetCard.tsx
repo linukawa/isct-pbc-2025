@@ -1,4 +1,4 @@
-import { toHumanYears, getAgeCategory, getSpeciesEmoji  } from '/Users/linuxfarungsang/isct-pbc-2025/apps/learning-phase-2/lib/petUtils'
+import { toHumanYears, getAgeCategory, getSpeciesEmoji  } from '../../lib/petUtils'
 
 type PetCardProps = {
   id: number  // Add this
